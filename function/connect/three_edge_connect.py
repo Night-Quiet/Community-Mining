@@ -2,7 +2,7 @@ import time
 from collections import namedtuple
 import copy
 import sys
-from function.list_function import SingleLinkList as sl
+from function.SingleLinkList import SingleLinkList as sl
 
 """
 使用----from threeConnect import tarjan as tarjan_three
