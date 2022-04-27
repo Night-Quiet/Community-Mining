@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2022-01-15">
+    <creator>NetworkX 2.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="group" type="long" />
+      <attribute id="1" title="size" type="long" />
+    </attributes>
+    <nodes>
+      <node id="C3" label="C3">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="10" />
+        </attvalues>
+      </node>
+      <node id="0" label="0">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="C4" label="C4">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="10" />
+        </attvalues>
+      </node>
+      <node id="C0'" label="C0'">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="10" />
+        </attvalues>
+      </node>
+      <node id="C0" label="C0">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="10" />
+        </attvalues>
+      </node>
+      <node id="C1" label="C1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="10" />
+        </attvalues>
+      </node>
+      <node id="C2" label="C2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="10" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="C3" target="0" weight="4" />
+      <edge id="1" source="0" target="C4" weight="1" />
+      <edge id="2" source="0" target="C0'" weight="11" />
+      <edge id="3" source="C0" target="C0" weight="22.0" />
+      <edge id="4" source="C0" target="C1" weight="7" />
+      <edge id="5" source="C0" target="C2" weight="3" />
+      <edge id="6" source="C1" target="C1" weight="21.0" />
+      <edge id="7" source="C1" target="C2" weight="7" />
+      <edge id="8" source="C2" target="C2" weight="7.0" />
+    </edges>
+  </graph>
+</gexf>
